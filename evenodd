@@ -1,0 +1,10 @@
+def even_odd(a,n):
+    for i in range(n):
+        if a[i] % 2 == 0:
+            print("even", end=" ")
+        else:
+            print("odd", end=" ")    
+            
+n=int(input())
+a=list(map(int,input().split))
+even_odd(a,n)
